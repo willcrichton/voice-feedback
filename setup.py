@@ -7,7 +7,7 @@ setuptools.setup(
     author_email="wcrichto@cs.stanford.com",
     description="",
     url="https://github.com/willcrichton/voice-feedback",
-    packages=['src'],
+    packages=['voice_feedback'],
     python_requires='>=3.6',
     install_requires=['torch', 'pyannote.audio @ git+https://github.com/pyannote/pyannote-audio.git']
 )
